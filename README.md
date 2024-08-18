@@ -128,10 +128,9 @@ By completing this step, you will have added all the primary content that will b
 ##
 
 ## Now lets add CSS code to style your page
-Open the `styles.css` file in the `BasicCSS` folder and add the following code to style your webpage:
+Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
 
-1. **Styling the Body**
-The first step is to apply a background color and margin to the entire page:
+
 
 
 
