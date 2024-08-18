@@ -1,0 +1,60 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header and Footer */
+header, footer {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Navigation Links */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+/* Main container layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+}
+
+/* Main Content */
+.main-content {
+    width: calc(100% - 220px); /* 220px accounts for the sidebar width and some margin */
+    padding: 15px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+}
