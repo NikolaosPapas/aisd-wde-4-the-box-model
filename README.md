@@ -25,7 +25,7 @@ project-folder/
    Now that you have your files set up, start by adding content to the `index.html` file.
 
 
-1. **HTML Boilerplate**
+## 1. **HTML Boilerplate**
 Start with the basic HTML5 boilerplate to set up the foundation of your document:
 
 ```html
@@ -46,9 +46,9 @@ Start with the basic HTML5 boilerplate to set up the foundation of your document
 **Explanation:**
 - Declares the document as HTML5 and sets up the essential metadata and styles.
 
-2. **Adding Content to the Body**
+## 2. **Adding Content to the Body**
 
-Next, add the main content inside the `<body>` tag:
+Next, add the main content inside the `<body>  </body>` tags:
 
 ```html
 <body>
