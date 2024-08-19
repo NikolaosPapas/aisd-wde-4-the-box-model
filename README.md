@@ -16,9 +16,7 @@ BoxModel/
 └── styles.css
 ```
 
-## Instructions
-
-Let's create that project structure
+# Instructions
 
 ## 1. **Create the Project Folder and Files**
    - [ ] Create a folder named `TheBoxModel` to store all your project files.
