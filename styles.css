@@ -1,0 +1,91 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Style the navigation */
+nav {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    border: 1px solid #333;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    background-color: #f4f4f4;
+}
+
+/* Container to hold sidebar and main content */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    background-color: #e9e9e9;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Style the sidebar */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 0 0 30%;
+    margin-right: 5%;
+    display: block;
+}
+
+/* Style the main content */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex: 1;
+    display: block;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
