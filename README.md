@@ -197,7 +197,7 @@ Apply styling to the `bloc-card` elements on our page.
 - The card has a specific background color and border.
 - Centers the block element within its container using `margin: 0 auto`.
 
-## 11. **Inline Container**
+## 10. **Inline Container**
 
 Apply a top margin  to the `inline-container` elements on our page.
 
@@ -209,7 +209,7 @@ Apply a top margin  to the `inline-container` elements on our page.
 **Explanation:**
 - Adds top margin to space the inline container from previous content.
 
-## 12. **Inline Card Styling**
+## 11. **Inline Card Styling**
 
 Apply specific styles to our inline-card class elements.
 
@@ -228,7 +228,7 @@ Apply specific styles to our inline-card class elements.
 - `display: inline` makes the element take up only as much width as its content.
 - The card has specific margins, padding, and colors, but does not break onto a new line.
 
-## 13. **Inline-Block Container**
+## 12. **Inline-Block Container**
 
 Add margin and alignment CSS to out `inline-block-container`
 
@@ -241,7 +241,7 @@ Add margin and alignment CSS to out `inline-block-container`
 **Explanation:**
 - Adds top margin and centers content within the inline-block container.
 
-## 14. **Inline-Block Card Styling**
+## 13. **Inline-Block Card Styling**
 
 Style the inline Block cards
 
@@ -264,7 +264,7 @@ Style the inline Block cards
 - The card is styled with specific padding included in the element's width.
 - Uses `vertical-align: top` to align the elements to the top.
 
-## 15. **Footer Styling**
+## 14. **Footer Styling**
 
 Now lets style our `footer`
 
