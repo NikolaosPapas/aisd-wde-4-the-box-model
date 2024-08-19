@@ -98,7 +98,7 @@ Finally, include a footer to summarize the differences between display types:
 
 ##
 
-### Now lets add CSS code to style your page
+### Now add CSS code to style your page
 Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
 
 ## 1. **CSS Reset**
