@@ -92,11 +92,14 @@ Finally, include a footer to summarize the differences between display types:
 
 ##
 
+## Let's take a look at the progress of our webpage unstyled.
+
+<img src="./assets/images/example2.png" alt="Screenshot of the finished index.html" width="300" height="300" style="border: 2px solid black;">
+
+##
+
 ### Now lets add CSS code to style your page
 Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
-
-
-
 
 ## 1. **CSS Reset**
 ```css
