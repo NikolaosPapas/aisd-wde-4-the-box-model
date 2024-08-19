@@ -287,14 +287,15 @@ footer {
 - `margin-top: 20px;`: Adds space above the footer, separating it from the content above.
 
 
-🌟 **Awesome work! You have successfully built a webpage layout using the CSS box model and display properties.** 🌟
 
 ##
+
+🌟 **Awesome work! You have successfully built a webpage layout using the CSS box model and display properties.** 🌟
 
 ### Conclusion
 In this assignment, you learned how to effectively use the CSS box model to control the spacing and layout of elements on a webpage. You also explored how different display properties, such as block and inline-block, influence the positioning of elements. By creating a basic webpage structure with a header, navigation, content area, sidebar, and footer, you gained practical experience in applying these concepts to build a responsive and well-organized webpage layout. Understanding these fundamental principles will be crucial as you continue to design and develop more complex web pages. Rember to use your AI assistant to ask questions and troubleshoot issues.
 
---
+---
 © All rights reserved to ThriveDX
 
 
