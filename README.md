@@ -21,9 +21,11 @@ BoxModel/
 Let's create that project structure
 
 ## 1. **Create the Project Folder and Files**
-   - Create a folder named `TheBoxModel` to store all your project files.
-   - Inside the `TheBoxModel` folder, create a file named `index.html`. This will be your main HTML file.
-   - Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
+   - [ ] Create a folder named `TheBoxModel` to store all your project files.
+   
+   - [ ] Inside the `TheBoxModel` folder, create a file named `index.html`. This will be your main HTML file.
+   
+   - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
 Now that you have your files set up, start by adding content to the `index.html` file.
 
