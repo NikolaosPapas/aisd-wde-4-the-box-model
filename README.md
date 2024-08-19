@@ -97,7 +97,7 @@ Finally, include a footer to summarize the differences between display types:
 ## Let's take a look at the progress of our webpage unstyled.
 Open your `index.html` file in the browser and review your current work with no styles applied.
 ##
-<img src="./assets/images/example2.png" alt="Screenshot of the finished index.html" width="375" height="300" style="border: 2px solid black;">
+![progress](./assets/images/example2.png)
 
 ##
 
