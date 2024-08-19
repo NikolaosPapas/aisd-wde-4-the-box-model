@@ -21,113 +21,96 @@ project-folder/
    - Inside the `TheBoxModel` folder, create a file named `index.html`. This will be your main HTML file.
    - Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-2. **Create the HTML File**  
+### Step-by-Step Breakdown of the HTML File
    Now that you have your files set up, start by adding content to the `index.html` file.
 
-   ### HTML Boilerplate
-   First, set up the basic structure of an HTML document. This is known as the boilerplate:
+1. **HTML Boilerplate**
+Start with the basic HTML5 boilerplate to set up the foundation of your document:
 
-   ```html
-   <!DOCTYPE html>
-   <html lang="en">
+\`\`\`html
+<!DOCTYPE html>
+<html lang="en">
 
-   <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>My Day as a Web Developer</title>
-     <!-- link your CSS here  -->
-   </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Types Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-   <body>
+<!-- Display code goes here  -->
 
-    <!-- content code goes here  -->
+</body>
+</html>
+\`\`\`
 
-   </body>
+#### Explanation:
+- \`<!DOCTYPE html>\` declares the document as an HTML5 document.
+- \`<html lang="en">\` specifies the language of the document as English.
+- The \`<head>\` section includes metadata such as character encoding (\`<meta charset="UTF-8">\`) and the viewport settings for responsiveness (\`<meta name="viewport" content="width=device-width, initial-scale=1.0">\`).
+- The \`<title>\` tag sets the title of the webpage, which appears in the browser tab.
+- The \`<link rel="stylesheet" href="styles.css">\` tag links the external CSS file to style the HTML content.
+- The \`<body>\` tag contains all the content of the webpage that will be displayed in the browser.
+- The \`</body>\` and \`</html>\` tags close the body content and the HTML document, respectively.
 
-   </html>
-   ```
+2. **Adding Content to the Body**
 
-   ### Explanation:
-   - The `<!DOCTYPE html>` declaration defines the document type as HTML5.
-   - The `<html lang="en">` tag specifies the language of the document.
-   - The `<head>` section includes metadata like character encoding and viewport settings for responsiveness.
-   - The `<title>` tag sets the title of the webpage, which appears in the browser tab.
+Next, add the main content inside the \`<body>\` tag:
 
-3. **Linking the CSS File**
-   After setting up the HTML boilerplate, the next step is to link your CSS file to the HTML document. This allows you to apply styling to the HTML elements.
+\`\`\`html
+<body>
+  <h1 class="page-title">CSS Display Types Showcase</h1>
+  <div class="container">
+    <div class="card block-card">
+      <p>I am a <strong>block</strong> element. I take up less width but still start on a new line.</p>
+    </div>
 
-   You should add the following `<link>` code **under the `<title>` tag but inside the `<head>` section only** of your HTML document:
+    <div class="inline-container">
+      <span class="card inline-card">I am an <strong>inline</strong> element.</span>
+      <span class="card inline-card">Another <strong>inline</strong> element.</span>
+    </div>
 
-   ```html
-   <link rel="stylesheet" href="styles.css">
-   ```
+    <div class="inline-block-container">
+      <div class="card inline-block-card">I am an <strong>inline-block</strong> element. I respect width and height properties.</div>
+      <div class="card inline-block-card">Another <strong>inline-block</strong> element beside me.</div>
+    </div>
+  </div>
+\`\`\`
 
-   ### Explanation:
-   - The `<link rel="stylesheet" href="styles.css">` tag connects the HTML file to the CSS file.
-   - The `rel="stylesheet"` attribute tells the browser that the linked file is a stylesheet.
-   - The `href="styles.css"` attribute specifies the path to the CSS file. Since the `styles.css` file is located in the same folder (`BasicCSS`) as the `index.html` file, the path is simply `"styles.css"`.
-   - **Important**: Ensure this `<link>` code is placed under the `<title>` tag and within the `<head>` section of your HTML document. This allows the browser to correctly identify and apply the CSS before rendering the body content.
+#### Explanation:
+- The content is wrapped inside the \`<body>\` tag.
+- \`<h1 class="page-title">\` is the main heading of the page. The class \`page-title\` can be used to style the heading in CSS.
+- \`<div class="container">\` groups the content and helps with layout styling.
+- \`<div class="card block-card">\` represents a block element with a specific class \`block-card\`.
+- \`<span class="card inline-card">\` represents inline elements with the class \`inline-card\`.
+- \`<div class="inline-block-container">\` groups inline-block elements, allowing them to be styled and aligned together.
+- \`<div class="card inline-block-card">\` represents inline-block elements with the class \`inline-block-card\`.
 
+3. **Adding the Footer**
 
-4.  **Add Content to the Body**
+Finally, include a footer to summarize the differences between display types:
 
-Now that you've set up the basic structure, it's time to add the content that will be displayed on the webpage. This content will go between the opening `<body>` and closing `</body>` tags in your HTML file.
-
-Here’s the code you'll be adding:
-
-```html
-<header>
-    <h1>Welcome to My Webpage</h1>
-</header>
-
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-    <aside class="sidebar">
-        <h2>Sidebar</h2>
-        <p>This is the sidebar content.</p>
-    </aside>
-
-    <main class="main-content">
-        <h2>Main Content</h2>
-        <p>This is the main content area.</p>
-    </main>
-</div>
-
-<footer>
-    <p>&copy; 2024 My Webpage</p>
+\`\`\`html
+<footer class="footer">
+  <p class="footer-title">Summary of Differences:</p>
+  <p><strong>Block:</strong> Takes up the full width of its container and forces a line break. Examples: div, p, section.</p>
+  <p><strong>Inline:</strong> Takes up only as much space as its content needs and stays inline. Examples: span, a, em.</p>
+  <p><strong>Inline-Block:</strong> Behaves like an inline element but allows width and height to be set. Examples: img, button, input.</p>
 </footer>
-```
+\`\`\`
 
 ### Explanation:
-
-- **Placement:** All of this code will be placed inside the `<body>` tags. This is where the visible content of your webpage is defined.
-  
-- **Structure:**
-  - The `<header>` section defines the title of your webpage.
-  - The `<nav>` section creates navigation links for different sections of the page.
-  - The `<div class="container">` groups the sidebar (`<aside>`) and the main content area (`<main>`).
-  - The `<footer>` contains the copyright information.
-
-### Reminder:
-
-- Everything you add in this step should go between the open `<body>` and close `</body>` tags in your HTML file. The content you create here will be what users see when they visit your webpage.
-
-By completing this step, you will have added all the primary content that will be displayed on your webpage.
-
-5. **Test the HTML Structure**
-   Before adding any CSS, open your `index.html` file in a browser to see how it looks. It should display plain text without any styling as seen below...
-
-##
-  <img src="./assets/images/example2.png" alt="Example of unstyled HTML" width="275" height="220">
+- \`<footer>\` contains the footer content, typically placed at the bottom of the webpage.
+- \`<p class="footer-title">\` is the title of the footer content, which can be styled separately.
+- Each \`<p>\` tag provides a summary of the different display types, including examples of HTML elements that use these display properties.
 
 ##
 
-## Now lets add CSS code to style your page
+By following these steps, you've successfully built a simple HTML document that explains and demonstrates the differences between block, inline, and inline-block elements. 
+
+
+### Now lets add CSS code to style your page
 Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
 
 

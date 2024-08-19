@@ -1,39 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDE04 CSS Box Model and Display Properties</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+       content="width=device-width, initial-scale=1.0">
+  <title>Display Types Showcase</title>
+  <link rel="stylesheet"
+       href="styles.css">
 </head>
+
 <body>
-
-    <header>
-        <h1>Welcome to My Webpage</h1>
-    </header>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Sidebar</h2>
-            <p>This is the sidebar content.</p>
-        </aside>
-
-        <main class="main-content">
-            <h2>Main Content</h2>
-            <p>This is the main content area.</p>
-        </main>
+  <h1 class="page-title">CSS Display Types Showcase</h1>
+  <div class="container">
+    <div class="card block-card">
+      <p>I am a <strong>block</strong> element. I take up less width but still start on a new line.</p>
     </div>
 
-    <footer>
-        <p>&copy; 2024 My Webpage</p>
-    </footer>
+    <div class="inline-container">
+      <span class="card inline-card">I am an <strong>inline</strong> element.</span>
+      <span class="card inline-card">Another <strong>inline</strong> element.</span>
+    </div>
+
+    <div class="inline-block-container">
+      <div class="card inline-block-card">I am an <strong>inline-block</strong> element. I respect width and height properties.</div>
+      <div class="card inline-block-card">Another <strong>inline-block</strong> element beside me.</div>
+    </div>
+  </div>
+<footer class="footer">
+  <p class="footer-title">Summary of Differences:</p>
+  <p><strong>Block:</strong> Takes up the full width of its container and forces a line break after it. It’s great for structuring larger sections of a webpage. Examples: div, p, section.</p>
+  <p><strong>Inline:</strong> Takes up only as much space as its content needs and does not cause a line break. Unlike block elements, you cannot set the width or height of inline elements; they are sized strictly by their content. This makes them ideal for small pieces of content within a line of text, but limits control over their dimensions. Examples: span, a, em.</p>
+  <p><strong>Inline-Block:</strong> Sits in line with other content like an inline element but allows you to set its width and height like a block element. This means you can control its size, making it useful for elements that need to be aligned in a row while still having defined dimensions. Examples: img, button, input.</p>
+</footer>
+
+
+
+
+
 
 </body>
+
 </html>
