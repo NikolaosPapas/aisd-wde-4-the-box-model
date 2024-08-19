@@ -74,7 +74,7 @@ Next, add the main content inside the `<body>  </body>` tags:
 **Explanation:**
 - Demonstrates the usage of block, inline, and inline-block display types.
 
-3. **Adding the Footer**
+## 3. **Adding the Footer**
 
 Finally, include a footer to summarize the differences between display types:
 
@@ -98,7 +98,7 @@ Open the `styles.css` file in the `TheBoxModel` folder and add the following cod
 
 
 
-1. **CSS Reset**
+## 1. **CSS Reset**
 ```css
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,7 +116,7 @@ body {
 - Sets the default font and background color.
 - Utilizes `display: flex` to align content centrally with a column direction.
 
-2. **Page Title Styling**
+## 2. **Page Title Styling**
 ```css
 .page-title {
     color: #00796b;
@@ -129,7 +129,7 @@ body {
 - Styles the main page title with specific color, margin, and font size.
 - Centers the text using `text-align: center`.
 
-3. **Container Styling**
+## 3. **Container Styling**
 ```css
 .container {
     width: 80%;
@@ -147,7 +147,7 @@ body {
 - Sets a white background and adds a subtle shadow for a lifted effect.
 - Rounds the corners using `border-radius`.
 
-4. **Card Base Styling**
+## 4. **Card Base Styling**
 ```css
 .card {
     padding: 8px;
@@ -162,7 +162,7 @@ body {
 - Applies a border and rounds the corners of the card.
 - Sets the font size for text within the card.
 
-5. **Block Card Styling**
+## 5. **Block Card Styling**
 ```css
 .block-card {
     display: block;
@@ -177,7 +177,7 @@ body {
 - The card has a specific background color and border.
 - Centers the block element within its container using `margin: 0 auto`.
 
-6. **Inline Container**
+## 6. **Inline Container**
 ```css
 .inline-container {
     margin-top: 20px;
@@ -186,7 +186,7 @@ body {
 **Explanation:**
 - Adds top margin to space the inline container from previous content.
 
-7. **Inline Card Styling**
+## 7. **Inline Card Styling**
 ```css
 .inline-card {
     display: inline;
@@ -202,7 +202,7 @@ body {
 - `display: inline` makes the element take up only as much width as its content.
 - The card has specific margins, padding, and colors, but does not break onto a new line.
 
-8. **Inline-Block Container**
+## 8. **Inline-Block Container**
 ```css
 .inline-block-container {
     margin-top: 20px;
@@ -212,7 +212,7 @@ body {
 **Explanation:**
 - Adds top margin and centers content within the inline-block container.
 
-9. **Inline-Block Card Styling**
+## 9. **Inline-Block Card Styling**
 ```css
 .inline-block-card {
     display: inline-block;
@@ -232,7 +232,7 @@ body {
 - The card is styled with specific padding included in the element's width.
 - Uses `vertical-align: top` to align the elements to the top.
 
-10. **Footer Styling**
+## 10. **Footer Styling**
 ```css
 .footer {
     width: 60%;
@@ -249,7 +249,7 @@ body {
 - Sets the footer's width, padding, and background color.
 - Aligns text to the left and applies a border with rounded corners.
 
-11. **Footer Title Styling**
+## 11. **Footer Title Styling**
 ```css
 .footer-title {
     color: #00796b;
@@ -260,7 +260,7 @@ body {
 **Explanation:**
 - Styles the footer title with color and bold font, and adds a bottom margin.
 
-12. **Footer Paragraph Styling**
+## 12. **Footer Paragraph Styling**
 ```css
 .footer p {
     margin: 10px 0;
