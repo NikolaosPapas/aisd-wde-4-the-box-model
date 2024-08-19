@@ -27,10 +27,8 @@ Let's create that project structure
    
    - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-Now that you have your files set up, start by adding content to the `index.html` file.
-
 ## 2. **HTML Boilerplate**
-Start with the basic HTML5 boilerplate to set up the foundation of your document:
+Now that you have your files set up, start by adding the basic HTML5 boilerplate to set up the foundation of your document in `index.html`.
 
 ```html
 <!DOCTYPE html>
