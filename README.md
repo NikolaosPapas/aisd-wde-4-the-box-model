@@ -3,7 +3,8 @@
 ![Screenshot of the finished webpage](./assets/images/example.png)
 ##
 
-**Description:**
+## Description
+
 In this assignment, we will explore the CSS box model together, which defines how the different parts of a box—content, padding, border, and margin—interact with each other and with surrounding elements. You’ll learn how to manipulate these properties to create diverse layouts and how various display properties (block, inline, inline-block) affect the flow and positioning of elements on a webpage. By the end of this exercise, you should feel confident working with the CSS box model and understand how display properties influence the overall structure of a webpage.
 
 
