@@ -29,8 +29,10 @@ BoxModel/
    
    - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-## 2. **HTML Boilerplate**
-Now that you have your files set up, start by adding the basic HTML5 boilerplate as seen below to set up the foundation of your document in `index.html`.
+## 2. **Start with a HTML boilerplate**
+Now that you have your files set up, start by adding the basic HTML5 boilerplate.
+
+  - [ ] Open your currently empty index.html file and add the following code to it.
 
 ```html
 <!DOCTYPE html>
@@ -51,8 +53,9 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
 - Declares the document as HTML5 and sets up the essential metadata and styles.
 
 ## 3. **Adding Content to the Body**
+Next, let's add the code that will define the content displayed on the web page.
 
-Next, add the main content,  shown below, inside the `<body></body>` tags of your boilerplate.
+- [ ] Add the code shown below, inside the `<body></body>` tags of your `HTML` boilerplate.
 
 ```html
   <h1 class="page-title">CSS Display Types Showcase</h1>
@@ -77,8 +80,9 @@ Next, add the main content,  shown below, inside the `<body></body>` tags of you
 - Demonstrates the usage of block, inline, and inline-block display types.
 
 ## 4. **Adding the Footer**
+Finally, lets add code for a `footer` to summarize the differences between all the display types:
 
-Finally, lets add a footer to summarize the differences between all the display types:
+  - [ ] Let's add the code below to your `index.html` file, placing it after the main content code, just before the closing `</body>` tag. 
 
 ```html
 <footer class="footer">
@@ -101,12 +105,12 @@ Open your `index.html` file in the browser and review your current work with no 
 
 ##
 
-### Now add CSS code to style your page
-Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
+## 5. **CSS Reset Code**
+Now, let's add som CSS to our page ! 
 
-## 5. **CSS Reset**
+We can remove default browser-specific styles from our <body> element to provide a consistent baseline for design.
 
-Let's apply some CSS code to our body element, we do that by removing default browser-specific styles in turn  providing a consistent baseline for design.
+- [ ] Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
 
 ```css
 body {
@@ -126,8 +130,9 @@ body {
 - Utilizes `display: flex` to align content centrally with a column direction.
 
 ## 6. **Page Title Styling**
-
 Let's now add css code to style the title to our web page.
+
+- [ ] Add the code below next in the  `styles.css` file to style our web page title.
 
 ```css
 .page-title {
@@ -141,9 +146,10 @@ Let's now add css code to style the title to our web page.
 - Styles the main page title with specific color, margin, and font size.
 - Centers the text using `text-align: center`.
 
-## 7. **Container Styling**
-
+## 7. **Container Styling Work**
 Next we will apply CSS to format the container of our page.
+
+- [ ] Add the code below to our CSS file to handle the formatting. 
 
 ```css
 .container {
@@ -163,8 +169,9 @@ Next we will apply CSS to format the container of our page.
 - Rounds the corners using `border-radius`.
 
 ## 8. **Card Base Styling**
-
 We will now apply padding and margins to our card, as well as add borders, to make it more visually appealing.
+
+- [ ] Add the code below to style the `card` class elements on the web page.
 
 ```css
 .card {
@@ -181,8 +188,9 @@ We will now apply padding and margins to our card, as well as add borders, to ma
 - Sets the font size for text within the card.
 
 ## 9. **Block Card Styling**
+We will now apply styling to the `block-card` class elements on our page.
 
-We will now apply styling to the `bloc-card` elements on our page using the CSS code shown below.
+- [ ]  Add the CSS code shown below to apply the various styles and display properties.
 
 ```css
 .block-card {
@@ -199,8 +207,9 @@ We will now apply styling to the `bloc-card` elements on our page using the CSS 
 - Centers the block element within its container using `margin: 0 auto`.
 
 ## 10. **Inline Container**
+Apply a top margin  to the `inline-container` elements on our page. 
 
-Apply a top margin  to the `inline-container` elements on our page by adding the CSS code shown below.
+- [ ]  Add the CSS code shown below to add the desired margin.
 
 ```css
 .inline-container {
@@ -211,8 +220,9 @@ Apply a top margin  to the `inline-container` elements on our page by adding the
 - Adds top margin to space the inline container from previous content.
 
 ## 11. **Inline Card Styling**
+Apply specific styles and display properties to the inline-card class.
 
-Apply specific styles to our inline-card class elements by adding the CSS code below.
+- [ ]  Next, add the CSS code below to apply these specific styles.
 
 ```css
 .inline-card {
@@ -230,8 +240,9 @@ Apply specific styles to our inline-card class elements by adding the CSS code b
 - The card has specific margins, padding, and colors, but does not break onto a new line.
 
 ## 12. **Inline-Block Container**
+Lets add margin and alignment configurations to our `inline-block-container` class elements.
 
-Lets add margin and alignment configurations using the CSS code below and apply it to our `inline-block-container`.
+- [ ] Add the CSS code below to apply the desired style and formating 
 
 ```css
 .inline-block-container {
@@ -243,8 +254,9 @@ Lets add margin and alignment configurations using the CSS code below and apply 
 - Adds top margin and centers content within the inline-block container.
 
 ## 13. **Inline-Block Card Styling**
-
 Now we will style the inline block cards for our project.
+
+- [ ]  Add the CSS code shown below to apply the various styles and display properties.
 
 ```css
 .inline-block-card {
@@ -266,8 +278,9 @@ Now we will style the inline block cards for our project.
 - Uses `vertical-align: top` to align the elements to the top.
 
 ## 14. **Footer Styling**
-
 Now let's style our `footer` section and make it more visually appealing.
+
+- [ ] Let's now add the CSS code belwo to start styling our `footer` element.
 
 ```css
 .footer {
@@ -286,8 +299,9 @@ Now let's style our `footer` section and make it more visually appealing.
 - Aligns text to the left and applies a border with rounded corners.
 
 ## 15. **Footer Title Styling**
-
 We can apply a specific style to the title located in our `footer` using the code below.
+
+- [ ] Add the CSS code shown below to continue the process of styling our footer.
 
 ```css
 .footer-title {
@@ -300,8 +314,9 @@ We can apply a specific style to the title located in our `footer` using the cod
 - Styles the `footer` title with color and bold font, and adds a bottom margin.
 
 ## 16. **Footer Paragraph Styling**
+Last, we will add CSS code to bettwer space out our `p` tag  within the `footer`
 
-LAst, we will add CSS code to bettwer space out our `p` tag  within the `footer`
+- [ ] Lastly, add the CSS code below to complete the formatting of our footer."
 
 ```css
 .footer p {
