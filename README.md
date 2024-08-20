@@ -5,7 +5,11 @@
 
 ## Description
 
-In this assignment, we will explore the CSS box model together, which defines how the different parts of a box—content, padding, border, and margin—interact with each other and with surrounding elements. You’ll learn how to manipulate these properties to create diverse layouts and how various display properties (block, inline, inline-block) affect the flow and positioning of elements on a webpage. By the end of this exercise, you should feel confident working with the CSS box model and understand how display properties influence the overall structure of a webpage.
+In this assignment, we will explore the CSS box model together, which defines how the different parts of a box—content, padding, border, and margin—interact with each other and with surrounding elements.
+
+You’ll learn how to manipulate these properties to create diverse layouts and how various display properties (block, inline, inline-block) affect the flow and positioning of elements on a webpage.
+ 
+By the end of this exercise, you should feel confident working with the CSS box model and understand how display properties influence the overall structure of a webpage.
 
 
 ## Expected Project Structure
@@ -26,7 +30,7 @@ BoxModel/
    - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
 ## 2. **HTML Boilerplate**
-Now that you have your files set up, start by adding the basic HTML5 boilerplate to set up the foundation of your document in `index.html`.
+Now that you have your files set up, start by adding the basic HTML5 boilerplate as seen below to set up the foundation of your document in `index.html`.
 
 ```html
 <!DOCTYPE html>
@@ -48,10 +52,9 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
 
 ## 3. **Adding Content to the Body**
 
-Next, add the main content inside the `<body>  </body>` tags:
+Next, add the main content,  shown below, inside the `<body></body>` tags of your boilerplate.
 
 ```html
-<body>
   <h1 class="page-title">CSS Display Types Showcase</h1>
   <div class="container">
     <div class="card block-card">
@@ -68,7 +71,6 @@ Next, add the main content inside the `<body>  </body>` tags:
       <div class="card inline-block-card">Another <strong>inline-block</strong> element beside me.</div>
     </div>
   </div>
-</body>
 ```
 
 **Explanation:**
@@ -76,7 +78,7 @@ Next, add the main content inside the `<body>  </body>` tags:
 
 ## 4. **Adding the Footer**
 
-Finally, include a footer to summarize the differences between display types:
+Finally, lets add a footer to summarize the differences between all the display types:
 
 ```html
 <footer class="footer">
@@ -104,7 +106,7 @@ Open the `styles.css` file in the `TheBoxModel` folder and add the following cod
 
 ## 5. **CSS Reset**
 
-Let's apply some CSS code to our body by removing default browser-specific styles, providing a consistent baseline for design
+Let's apply some CSS code to our body element, we do that by removing default browser-specific styles in turn  providing a consistent baseline for design.
 
 ```css
 body {
@@ -125,7 +127,7 @@ body {
 
 ## 6. **Page Title Styling**
 
-Let's style the title to our web page.
+Let's now add css code to style the title to our web page.
 
 ```css
 .page-title {
@@ -141,7 +143,7 @@ Let's style the title to our web page.
 
 ## 7. **Container Styling**
 
-Next we apply CSS to format the container of our page.
+Next we will apply CSS to format the container of our page.
 
 ```css
 .container {
@@ -162,7 +164,7 @@ Next we apply CSS to format the container of our page.
 
 ## 8. **Card Base Styling**
 
-We will apply padding and margins to our card, as well as add borders, to make it more visually appealing.
+We will now apply padding and margins to our card, as well as add borders, to make it more visually appealing.
 
 ```css
 .card {
@@ -180,7 +182,7 @@ We will apply padding and margins to our card, as well as add borders, to make i
 
 ## 9. **Block Card Styling**
 
-Apply styling to the `bloc-card` elements on our page.
+We will now apply styling to the `bloc-card` elements on our page using the CSS code shown below.
 
 ```css
 .block-card {
@@ -198,7 +200,7 @@ Apply styling to the `bloc-card` elements on our page.
 
 ## 10. **Inline Container**
 
-Apply a top margin  to the `inline-container` elements on our page.
+Apply a top margin  to the `inline-container` elements on our page by adding the CSS code shown below.
 
 ```css
 .inline-container {
@@ -210,7 +212,7 @@ Apply a top margin  to the `inline-container` elements on our page.
 
 ## 11. **Inline Card Styling**
 
-Apply specific styles to our inline-card class elements.
+Apply specific styles to our inline-card class elements by adding the CSS code below.
 
 ```css
 .inline-card {
@@ -229,7 +231,7 @@ Apply specific styles to our inline-card class elements.
 
 ## 12. **Inline-Block Container**
 
-Add margin and alignment CSS to out `inline-block-container`
+Lets add margin and alignment configurations using the CSS code below and apply it to our `inline-block-container`.
 
 ```css
 .inline-block-container {
@@ -242,7 +244,7 @@ Add margin and alignment CSS to out `inline-block-container`
 
 ## 13. **Inline-Block Card Styling**
 
-Style the inline Block cards
+Now we will style the inline block cards for our project.
 
 ```css
 .inline-block-card {
@@ -265,7 +267,7 @@ Style the inline Block cards
 
 ## 14. **Footer Styling**
 
-Now lets style our `footer`
+Now let's style our `footer` section and make it more visually appealing.
 
 ```css
 .footer {
@@ -285,7 +287,7 @@ Now lets style our `footer`
 
 ## 15. **Footer Title Styling**
 
-Footer title Styling
+We can apply a specific style to the title located in our `footer` using the code below.
 
 ```css
 .footer-title {
@@ -295,11 +297,11 @@ Footer title Styling
 }
 ```
 **Explanation:**
-- Styles the footer title with color and bold font, and adds a bottom margin.
+- Styles the `footer` title with color and bold font, and adds a bottom margin.
 
 ## 16. **Footer Paragraph Styling**
 
-`p` tag styling within the `footer`
+LAst, we will add CSS code to bettwer space out our `p` tag  within the `footer`
 
 ```css
 .footer p {
@@ -314,7 +316,13 @@ Footer title Styling
 **Awesome work! You have successfully built a webpage layout using the CSS box model and display properties.** 
 
 # Conclusion
-In this assignment, you learned how to effectively use the CSS box model to control the spacing and layout of elements on a webpage. You also explored how different display properties, such as block and inline-block, influence the positioning of elements. By creating a basic webpage structure with a header, navigation, content area, sidebar, and footer, you gained practical experience in applying these concepts to build a responsive and well-organized webpage layout. Understanding these fundamental principles will be crucial as you continue to design and develop more complex web pages. Rember to use your AI assistant to ask questions and troubleshoot issues.
+In this assignment, you learned how to effectively use the CSS box model to control the spacing and layout of elements on a webpage. 
+
+You also explored how different display properties, such as block and inline-block, influence the positioning of elements by creating a basic webpage structure with a header, navigation, content area, sidebar, and footer, you gained practical experience in applying these concepts to build a responsive and well-organized webpage layout. 
+
+Understanding these fundamental principles will be crucial as you continue to design and develop more complex web pages. 
+
+Rember to use your AI assistant to ask questions and troubleshoot issues.
 
 ---
 © All rights reserved to ThriveDX
