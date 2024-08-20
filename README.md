@@ -3,7 +3,7 @@
 ![Screenshot of the finished webpage](./assets/images/example.png)
 ##
 
-## Description
+## Description 📄
 
 In this assignment, we will explore the CSS box model together, which defines how the different parts of a box—content, padding, border, and margin—interact with each other and with surrounding elements.
 
@@ -12,7 +12,7 @@ You’ll learn how to manipulate these properties to create diverse layouts and 
 By the end of this exercise, you should feel confident working with the CSS box model and understand how display properties influence the overall structure of a webpage.
 
 
-## Expected Project Structure
+## Expected Project Structure 🏗️
 
 ```plaintext
 BoxModel/
@@ -20,7 +20,7 @@ BoxModel/
 └── styles.css
 ```
 
-# Instructions
+# Instructions ✅
 
 ## 1. **Create the Project Folder and Files**
    - [ ] Create a folder named `TheBoxModel` to store all your project files.
@@ -330,7 +330,7 @@ Lastly, let's add some spacing to make the footer more visually pleasing to our 
 
 **Awesome work! You have successfully built a webpage layout using the CSS box model and display properties.** 
 
-# Conclusion
+# Conclusion 📄
 In this assignment, you learned how to effectively use the CSS box model to control the spacing and layout of elements on a webpage. 
 
 You also explored how different display properties, such as block and inline-block, influence the positioning of elements by creating a basic webpage structure with a header, navigation, content area, sidebar, and footer, you gained practical experience in applying these concepts to build a responsive and well-organized webpage layout. 
