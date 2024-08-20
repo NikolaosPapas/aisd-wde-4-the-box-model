@@ -82,7 +82,7 @@ Next, let's add the code that will define the content displayed on the web page.
 ## 4. **Adding the Footer**
 Finally, lets add code for a `footer` to summarize the differences between all the display types:
 
-  - [ ] Let's add the code below to your `index.html` file, placing it after the main content code, just before the closing `</body>` tag. 
+  - [ ] Let's add the footer code below to your `index.html` file, placing it after the main content code, just before the closing `</body>` tag. 
 
 ```html
 <footer class="footer">
@@ -106,11 +106,11 @@ Open your `index.html` file in the browser and review your current work with no 
 ##
 
 ## 5. **CSS Reset Code**
-Now, let's add som CSS to our page ! 
+Now, let's add some CSS code to our page ! 
 
 We can remove default browser-specific styles from our <body> element to provide a consistent baseline for design.
 
-- [ ] Open the `styles.css` file in the `TheBoxModel` folder and add the following code to style your webpage:
+- [ ] Open the `styles.css` file in the `TheBoxModel` folder and add the following code
 
 ```css
 body {
@@ -132,7 +132,7 @@ body {
 ## 6. **Page Title Styling**
 Let's now add css code to style the title to our web page.
 
-- [ ] Add the code below next in the  `styles.css` file to style our web page title.
+- [ ] Add this CSS code to our `styles.css` file.
 
 ```css
 .page-title {
@@ -149,7 +149,7 @@ Let's now add css code to style the title to our web page.
 ## 7. **Container Styling Work**
 Next we will apply CSS to format the container of our page.
 
-- [ ] Add the code below to our CSS file to handle the formatting. 
+- [ ] Add this CSS code to our `styles.css` file.
 
 ```css
 .container {
@@ -171,7 +171,7 @@ Next we will apply CSS to format the container of our page.
 ## 8. **Card Base Styling**
 We will now apply padding and margins to our card, as well as add borders, to make it more visually appealing.
 
-- [ ] Add the code below to style the `card` class elements on the web page.
+- [ ] Add this CSS code to our `styles.css` file.
 
 ```css
 .card {
@@ -190,7 +190,7 @@ We will now apply padding and margins to our card, as well as add borders, to ma
 ## 9. **Block Card Styling**
 We will now apply styling to the `block-card` class elements on our page.
 
-- [ ]  Add the CSS code shown below to apply the various styles and display properties.
+- [ ]  Add this CSS code to our `styles.css` file.
 
 ```css
 .block-card {
@@ -209,7 +209,7 @@ We will now apply styling to the `block-card` class elements on our page.
 ## 10. **Inline Container**
 Apply a top margin  to the `inline-container` elements on our page. 
 
-- [ ]  Add the CSS code shown below to add the desired margin.
+- [ ]  Add this CSS code to our `styles.css` file.
 
 ```css
 .inline-container {
@@ -222,7 +222,7 @@ Apply a top margin  to the `inline-container` elements on our page.
 ## 11. **Inline Card Styling**
 Apply specific styles and display properties to the inline-card class.
 
-- [ ]  Next, add the CSS code below to apply these specific styles.
+- [ ]  Add this CSS code to our `styles.css` file.
 
 ```css
 .inline-card {
@@ -242,7 +242,7 @@ Apply specific styles and display properties to the inline-card class.
 ## 12. **Inline-Block Container**
 Lets add margin and alignment configurations to our `inline-block-container` class elements.
 
-- [ ] Add the CSS code below to apply the desired style and formating 
+- [ ] Add this CSS code to our `styles.css` file.
 
 ```css
 .inline-block-container {
@@ -256,7 +256,7 @@ Lets add margin and alignment configurations to our `inline-block-container` cla
 ## 13. **Inline-Block Card Styling**
 Now we will style the inline block cards for our project.
 
-- [ ]  Add the CSS code shown below to apply the various styles and display properties.
+- [ ]  Add this CSS code to our `styles.css` file.
 
 ```css
 .inline-block-card {
@@ -280,7 +280,7 @@ Now we will style the inline block cards for our project.
 ## 14. **Footer Styling**
 Now let's style our `footer` section and make it more visually appealing.
 
-- [ ] Let's now add the CSS code belwo to start styling our `footer` element.
+- [ ] Add this CSS code to our `styles.css` file.
 
 ```css
 .footer {
@@ -299,9 +299,9 @@ Now let's style our `footer` section and make it more visually appealing.
 - Aligns text to the left and applies a border with rounded corners.
 
 ## 15. **Footer Title Styling**
-We can apply a specific style to the title located in our `footer` using the code below.
+We will now apply a specific style to the title element located in our `footer`.
 
-- [ ] Add the CSS code shown below to continue the process of styling our footer.
+- [ ] Add this CSS code to `styles.css`.
 
 ```css
 .footer-title {
@@ -314,9 +314,9 @@ We can apply a specific style to the title located in our `footer` using the cod
 - Styles the `footer` title with color and bold font, and adds a bottom margin.
 
 ## 16. **Footer Paragraph Styling**
-Last, we will add CSS code to bettwer space out our `p` tag  within the `footer`
+Lastly, let's add some spacing to make the footer more visually pleasing to our visitors.
 
-- [ ] Lastly, add the CSS code below to complete the formatting of our footer."
+- [ ] Add this CSS code to `styles.css`.
 
 ```css
 .footer p {
@@ -337,7 +337,7 @@ You also explored how different display properties, such as block and inline-blo
 
 Understanding these fundamental principles will be crucial as you continue to design and develop more complex web pages. 
 
-Rember to use your AI assistant to ask questions and troubleshoot issues.
+Remember to use your AI assistant to ask questions and troubleshoot issues.
 
 ---
 © All rights reserved to ThriveDX
