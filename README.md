@@ -1,6 +1,6 @@
 # Box Model and Display Properties
 
-![The screenshot showcases a web page titled "CSS Display Types Showcase" featuring various examples of CSS display properties. The page includes three main sections: a block element that spans the full width, inline elements that sit side-by-side, and inline-block elements that align in a row while respecting width and height properties. The page is styled with a clean, centered layout, light background colors, and defined borders around each card. A footer summarizes the differences between block, inline, and inline-block elements, providing examples for each type.](./assets/images/example.png)
+![The screenshot shows a "CSS Display Types Showcase" page with block, inline, and inline-block examples, clean layout, light colors, and a footer summarizing their differences.](./assets/images/example.png)
 ##
 
 ## Description 📄
@@ -101,7 +101,7 @@ Finally, lets add code for a `footer` to summarize the differences between all t
 ## Let's take a look at the progress of our webpage unstyled.
 Open your `index.html` file in the browser and review your current work with no styles applied.
 ##
-![The screenshot displays a simple HTML page titled "CSS Display Types Showcase" with no CSS applied. The page consists of a main header "CSS Display Types Showcase" followed by three sections of text. The first section describes a block element, the second includes two inline elements, and the third explains inline-block elements. Each description is written in plain text within paragraphs, with no visual styling or layout. The footer at the bottom provides a summary of the differences between block, inline, and inline-block elements, all presented in a basic, unstyled format.](./assets/images/example2.png)
+![The screenshot shows an unstyled HTML page titled "CSS Display Types Showcase" with a header and three sections describing block, inline, and inline-block elements. The footer summarizes their differences.](./assets/images/example2.png)
 
 ##
 
