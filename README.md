@@ -1,6 +1,6 @@
 # Box Model and Display Properties
 
-![Screenshot of the finished webpage](./assets/images/example.png)
+![The screenshot showcases a web page titled "CSS Display Types Showcase" featuring various examples of CSS display properties. The page includes three main sections: a block element that spans the full width, inline elements that sit side-by-side, and inline-block elements that align in a row while respecting width and height properties. The page is styled with a clean, centered layout, light background colors, and defined borders around each card. A footer summarizes the differences between block, inline, and inline-block elements, providing examples for each type.](./assets/images/example.png)
 ##
 
 ## Description 📄
@@ -20,7 +20,7 @@ BoxModel/
 └── styles.css
 ```
 
-# Instructions ✅
+## Instructions ✅
 
 ## 1. **Create the Project Folder and Files**
    - [ ] Create a folder named `TheBoxModel` to store all your project files.
@@ -29,7 +29,7 @@ BoxModel/
    
    - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-## 2. **Start with a HTML boilerplate**
+## 2. **Start with a HTML Boilerplate**
 Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
   - [ ] Open your currently empty index.html file and add the following code to it.
@@ -101,7 +101,7 @@ Finally, lets add code for a `footer` to summarize the differences between all t
 ## Let's take a look at the progress of our webpage unstyled.
 Open your `index.html` file in the browser and review your current work with no styles applied.
 ##
-![progress](./assets/images/example2.png)
+![The screenshot displays a simple HTML page titled "CSS Display Types Showcase" with no CSS applied. The page consists of a main header "CSS Display Types Showcase" followed by three sections of text. The first section describes a block element, the second includes two inline elements, and the third explains inline-block elements. Each description is written in plain text within paragraphs, with no visual styling or layout. The footer at the bottom provides a summary of the differences between block, inline, and inline-block elements, all presented in a basic, unstyled format.](./assets/images/example2.png)
 
 ##
 
@@ -338,6 +338,15 @@ You also explored how different display properties, such as block and inline-blo
 Understanding these fundamental principles will be crucial as you continue to design and develop more complex web pages. 
 
 Remember to use your AI assistant to ask questions and troubleshoot issues.
+
+##
+
+### Solution codebase 👀
+🛑 **Only use this as a reference** 🛑
+
+💾 **Not something to copy and paste** 💾
+
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-wde-4-the-box-model/tree/solution) (link not shown).
 
 ---
 © All rights reserved to ThriveDX
