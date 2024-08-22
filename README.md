@@ -27,7 +27,7 @@ BoxModel/
    
    - [ ] Inside the `TheBoxModel` folder, create a file named `index.html`. This will be your main HTML file.
    
-   - [ ] Also, in the `BasicCSS` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
+   - [ ] Also, in the `TheBoxModel` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
 ## 2. **Start with a HTML Boilerplate**
 Now that you have your files set up, start by adding the basic HTML5 boilerplate.
