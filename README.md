@@ -5,7 +5,7 @@
 
 ## Description 📄
 
-In this assignment, we will explore the CSS box model together, which defines how the different parts of a box—content, padding, border, and margin—interact with each other and with surrounding elements.
+In this assignment, you will explore the CSS box model, which defines how the different parts of a box—content, padding, border, and margin—interact with each other and with surrounding elements.
 
 You’ll learn how to manipulate these properties to create diverse layouts and how various display properties (block, inline, inline-block) affect the flow and positioning of elements on a webpage.
  
@@ -53,7 +53,7 @@ Now that you have your files set up, start by adding the basic HTML5 boilerplate
 - Declares the document as HTML5 and sets up the essential metadata and styles.
 
 ## 3. **Adding Content to the Body**
-Next, let's add the code that will define the content displayed on the web page.
+Next, add the code that will define the content displayed on the web page.
 
 - [ ] Add the code shown below, inside the `<body></body>` tags of your `HTML` boilerplate.
 
@@ -82,7 +82,7 @@ Next, let's add the code that will define the content displayed on the web page.
 ## 4. **Adding the Footer**
 Finally, lets add code for a `footer` to summarize the differences between all the display types:
 
-  - [ ] Let's add the footer code below to your `index.html` file, placing it after the main content code, just before the closing `</body>` tag. 
+  - [ ] Add the footer code below to your `index.html` file, placing it after the main content code, just before the closing `</body>` tag. 
 
 ```html
 <footer class="footer">
@@ -98,7 +98,7 @@ Finally, lets add code for a `footer` to summarize the differences between all t
 
 ##
 
-## Let's take a look at the progress of our webpage unstyled.
+## Take a look at the progress of your webpage unstyled.
 Open your `index.html` file in the browser and review your current work with no styles applied.
 ##
 ![The screenshot shows an unstyled HTML page titled "CSS Display Types Showcase" with a header and three sections describing block, inline, and inline-block elements. The footer summarizes their differences.](./assets/images/example2.png)
@@ -106,9 +106,9 @@ Open your `index.html` file in the browser and review your current work with no 
 ##
 
 ## 5. **CSS Reset Code**
-Now, let's add some CSS code to our page ! 
+Now, add some CSS code to your page ! 
 
-We can remove default browser-specific styles from our <body> element to provide a consistent baseline for design.
+You can remove default browser-specific styles from your <body> element to provide a consistent baseline for design.
 
 - [ ] Open the `styles.css` file in the `TheBoxModel` folder and add the following code
 
@@ -130,9 +130,9 @@ body {
 - Utilizes `display: flex` to align content centrally with a column direction.
 
 ## 6. **Page Title Styling**
-Let's now add css code to style the title to our web page.
+Now add css code to style the title to your web page.
 
-- [ ] Add this CSS code to our `styles.css` file.
+- [ ] Add this CSS code to your `styles.css` file.
 
 ```css
 .page-title {
@@ -147,9 +147,9 @@ Let's now add css code to style the title to our web page.
 - Centers the text using `text-align: center`.
 
 ## 7. **Container Styling Work**
-Next we will apply CSS to format the container of our page.
+Next you will apply CSS to format the container of your page.
 
-- [ ] Add this CSS code to our `styles.css` file.
+- [ ] Add this CSS code to your `styles.css` file.
 
 ```css
 .container {
@@ -169,9 +169,9 @@ Next we will apply CSS to format the container of our page.
 - Rounds the corners using `border-radius`.
 
 ## 8. **Card Base Styling**
-We will now apply padding and margins to our card, as well as add borders, to make it more visually appealing.
+You will now apply padding and margins to your card, as well as add borders, to make it more visually appealing.
 
-- [ ] Add this CSS code to our `styles.css` file.
+- [ ] Add this CSS code to your `styles.css` file.
 
 ```css
 .card {
@@ -188,9 +188,9 @@ We will now apply padding and margins to our card, as well as add borders, to ma
 - Sets the font size for text within the card.
 
 ## 9. **Block Card Styling**
-We will now apply styling to the `block-card` class elements on our page.
+You will now apply styling to the `block-card` class elements on your page.
 
-- [ ]  Add this CSS code to our `styles.css` file.
+- [ ]  Add this CSS code to your `styles.css` file.
 
 ```css
 .block-card {
@@ -207,9 +207,9 @@ We will now apply styling to the `block-card` class elements on our page.
 - Centers the block element within its container using `margin: 0 auto`.
 
 ## 10. **Inline Container**
-Apply a top margin  to the `inline-container` elements on our page. 
+Apply a top margin  to the `inline-container` elements on your page. 
 
-- [ ]  Add this CSS code to our `styles.css` file.
+- [ ]  Add this CSS code to your `styles.css` file.
 
 ```css
 .inline-container {
@@ -222,7 +222,7 @@ Apply a top margin  to the `inline-container` elements on our page.
 ## 11. **Inline Card Styling**
 Apply specific styles and display properties to the inline-card class.
 
-- [ ]  Add this CSS code to our `styles.css` file.
+- [ ]  Add this CSS code to your `styles.css` file.
 
 ```css
 .inline-card {
@@ -240,9 +240,9 @@ Apply specific styles and display properties to the inline-card class.
 - The card has specific margins, padding, and colors, but does not break onto a new line.
 
 ## 12. **Inline-Block Container**
-Lets add margin and alignment configurations to our `inline-block-container` class elements.
+Lets add margin and alignment configurations to your `inline-block-container` class elements.
 
-- [ ] Add this CSS code to our `styles.css` file.
+- [ ] Add this CSS code to your `styles.css` file.
 
 ```css
 .inline-block-container {
@@ -254,9 +254,9 @@ Lets add margin and alignment configurations to our `inline-block-container` cla
 - Adds top margin and centers content within the inline-block container.
 
 ## 13. **Inline-Block Card Styling**
-Now we will style the inline block cards for our project.
+Now you will style the inline block cards for your project.
 
-- [ ]  Add this CSS code to our `styles.css` file.
+- [ ]  Add this CSS code to your `styles.css` file.
 
 ```css
 .inline-block-card {
@@ -278,9 +278,9 @@ Now we will style the inline block cards for our project.
 - Uses `vertical-align: top` to align the elements to the top.
 
 ## 14. **Footer Styling**
-Now let's style our `footer` section and make it more visually appealing.
+Now style your `footer` section and make it more visually appealing.
 
-- [ ] Add this CSS code to our `styles.css` file.
+- [ ] Add this CSS code to your `styles.css` file.
 
 ```css
 .footer {
@@ -299,7 +299,7 @@ Now let's style our `footer` section and make it more visually appealing.
 - Aligns text to the left and applies a border with rounded corners.
 
 ## 15. **Footer Title Styling**
-We will now apply a specific style to the title element located in our `footer`.
+You will now apply a specific style to the title element located in your `footer`.
 
 - [ ] Add this CSS code to `styles.css`.
 
@@ -314,7 +314,7 @@ We will now apply a specific style to the title element located in our `footer`.
 - Styles the `footer` title with color and bold font, and adds a bottom margin.
 
 ## 16. **Footer Paragraph Styling**
-Lastly, let's add some spacing to make the footer more visually pleasing to our visitors.
+Lastly, add some spacing to make the footer more visually pleasing to your visitors.
 
 - [ ] Add this CSS code to `styles.css`.
 
