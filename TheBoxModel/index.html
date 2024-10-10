@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Types Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Display code goes here -->
+<h1 class="page-title">CSS Display Types Showcase</h1>
+<div class="container">
+  <div class="card block-card">
+    <p>I am a <strong>block</strong> element. I take up less width but still start on a new line.</p>
+  </div>
+
+  <div class="inline-container">
+    <span class="card inline-card">I am an <strong>inline</strong> element.</span>
+    <span class="card inline-card">Another <strong>inline</strong> element.</span>
+  </div>
+
+  <div class="inline-block-container">
+    <div class="card inline-block-card">I am an <strong>inline-block</strong> element. I respect width and height properties.</div>
+    <div class="card inline-block-card">Another <strong>inline-block</strong> element beside me.</div>
+  </div>
+</div>
+<footer> <!-- Footer ussually goes after </div<-->
+    <footer class="footer">
+        <p class="footer-title">Summary of Differences:</p>
+        <p><strong>Block:</strong> Full width, forces a line break. Examples: div, p.</p>
+        <p><strong>Inline:</strong> Only takes needed space, stays inline. Examples: span, a.</p>
+        <p><strong>Inline-Block:</strong> Inline, but allows width/height. Examples: img, button.</p>
+</footer>
+</body>
+</html>
